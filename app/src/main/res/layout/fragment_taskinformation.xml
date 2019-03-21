@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.youth.banner.Banner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="160dp" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:background="#B6B6B6"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <LinearLayout
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="145dp">
+
+        <TextView
+            android:textSize="13sp"
+            android:gravity="center_vertical"
+            android:text="企业名称：北京派得伟业科技发展有限公司"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:textSize="13sp"
+            android:gravity="center_vertical"
+            android:text="员工姓名：张三"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:textSize="13sp"
+            android:gravity="center_vertical"
+            android:text="岗位角色：农业生产技术人员"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:textSize="13sp"
+            android:gravity="center_vertical"
+            android:text="负责任务：5个"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+    <TextView
+
+        android:background="#D9D9D9"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <TextView
+android:layout_marginTop="3dp"
+        android:background="#DDDDDD"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <ListView
+
+        android:id="@+id/lv_main"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></ListView>
+
+</LinearLayout>

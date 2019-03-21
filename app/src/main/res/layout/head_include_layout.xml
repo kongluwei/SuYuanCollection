@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:background="@drawable/shape_gradient"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/ll_head_return"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:onClick="headOnClick"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/tv_head_back"
+            android:layout_marginLeft="5dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/head_icon_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_head_title"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:text="标题"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+
+
+    <LinearLayout
+        android:visibility="invisible"
+        android:id="@+id/ll_head_personalcenter_1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:paddingRight="5dp"
+        android:layout_weight="1"
+        android:gravity="right|center_vertical"
+        android:onClick="headOnClick"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/head_icon_user" />
+
+
+    </LinearLayout>
+</LinearLayout>

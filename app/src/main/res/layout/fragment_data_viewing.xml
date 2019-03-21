@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/tv_dajlbh"
+            android:background="#E8E8E8"
+            android:textColor="#B6B6B6"
+            android:paddingLeft="30dp"
+            android:gravity="center_vertical"
+            android:text="请选择档案记录编号"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+
+            android:background="@mipmap/icon_go"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp" />
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#FC6158"
+            android:id="@+id/tv_today"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <TextView
+          android:gravity="center"
+            android:text="查看今天"
+            android:layout_gravity="right"
+
+            android:layout_marginRight="15dp"
+            android:textColor="#FC6158"
+            android:id="@+id/bt_today"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <View
+        android:background="#E8E8E8"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <com.othershe.calendarview.weiget.WeekView
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+<View
+    android:background="#E8E8E8"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"/>
+    <com.othershe.calendarview.weiget.CalendarView
+        app:show_term="false"
+        app:show_holiday="false"
+        android:id="@+id/calendar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <View
+        android:background="#E8E8E8"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ExpandableListView
+        android:id="@+id/expandlist"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:cacheColorHint="#00000000"
+        android:childDivider="@drawable/list_line"
+        android:divider="@null"
+        android:listSelector="#00000000" >
+    </ExpandableListView>
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:background="#F4F4F4"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:id="@+id/ll_pickerscrlllview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    <collection.suyuan.pdwy.com.suyuancollection.utils.PickerScrollView
+        android:layout_weight="1"
+        android:id="@+id/pickerscrlllview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <Button
+        android:text="确定"
+        android:id="@+id/bt_picker_yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</FrameLayout>

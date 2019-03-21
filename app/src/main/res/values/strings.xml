@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">生产记录数据采集系统</string>
+    <string name="user_id">USER_ID</string>
+    <string name="user_identity">USER_IDENTITY</string>
+    <string name="user_name">USER_NAME</string>
+    <string name="user_paw">USER_PAW</string>
+    <string name="user_fullName">USER_FULLNAME</string>
+</resources>

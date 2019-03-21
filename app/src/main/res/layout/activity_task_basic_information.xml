@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/head_include_layout"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.youth.banner.Banner
+                android:layout_marginTop="3dp"
+                android:id="@+id/banner_task_basic"
+                android:layout_width="match_parent"
+                android:layout_height="160dp">
+
+            </com.youth.banner.Banner>
+<View
+    android:layout_marginTop="5dp"
+    android:background="#DDDDDD"
+    android:layout_width="match_parent"
+    android:layout_height="2dp"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:padding="5dp"
+
+                    android:text="生产档案编号 :"
+                    android:gravity="center_vertical|right"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:id="@+id/tv_scdabhh"
+                    android:padding="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="李晓20180101"
+                    android:gravity="center_vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <View
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#E6E6E6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:padding="5dp"
+
+                    android:text="管理人员 :"
+                    android:gravity="center_vertical|right"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="张三" />
+            </LinearLayout>
+            <View
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#E6E6E6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:padding="5dp"
+
+                    android:text="基地名称 :"
+                    android:gravity="center_vertical|right"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="保亭基地"
+                    android:gravity="center_vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <View
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#E6E6E6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:padding="5dp"
+
+                    android:text="地块名称 :"
+                    android:gravity="center_vertical|right"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="A01  A02  A03"
+                    android:gravity="center_vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <View
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#E6E6E6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:padding="5dp"
+
+                    android:text="农作物类别 :"
+                    android:gravity="center_vertical|right"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="荔枝"
+                    android:gravity="center_vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <View
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#E6E6E6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:padding="5dp"
+
+                    android:text="种植品种 :"
+                    android:gravity="center_vertical|right"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="二月红"
+                    android:gravity="center_vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <View
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#E6E6E6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:padding="5dp"
+
+                    android:text="创建时间 :"
+                    android:gravity="center_vertical|right"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="2019-01-18"
+                    android:gravity="center_vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <View
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#E6E6E6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:padding="5dp"
+
+                    android:text="状态 :"
+                    android:gravity="center_vertical|right"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="正在采集"
+                    android:gravity="center_vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <View
+             
+                android:background="#DDDDDD"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"/>
+            <TextView
+                android:id="@+id/tv_data_acquisition"
+               android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:gravity="center"
+                android:background="@drawable/shape_small_label_signin_"
+                android:text="数据采集"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:gravity="center"
+
+                android:text="查看档案"
+                android:textColor="#79B1F3"
+                android:textSize="13sp"
+                android:autoLink="all"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>
